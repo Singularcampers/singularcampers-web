@@ -1,0 +1,34 @@
+# Entorno local y credenciales
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.sql
+*.sql.gz
+*.sqlite
+*.sqlite3
+wp-config.php
+wp-config-*.php
+auth.json
+**/secrets/**
+**/.ssh/**
+
+# Instalación de WordPress y material no destinado a este repositorio
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/backups/
+wp-content/ai1wm-backups/
+wp-content/updraft/
+wp-content/wflogs/
+*.log
+
+# Dependencias generadas y sistema
+node_modules/
+vendor/
+dist/
+.DS_Store
+.idea/
+.vscode/
