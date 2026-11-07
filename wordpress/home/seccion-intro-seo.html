@@ -1,0 +1,71 @@
+<!--
+  SINGULAR CAMPERS · Sección SEO bajo el hero (contiene el H1 de la home)
+  Dónde: justo debajo del hero «El diseño empieza por cómo viajas».
+  Cómo: bloque «HTML personalizado» en el editor (o GenerateBlocks > Elemento con este HTML).
+  Requisito: en el hero, cambiar la etiqueta del texto «El diseño empieza por cómo viajas» de H1 a P
+  (bloque Texto de GenerateBlocks > Etiqueta: p). Solo puede haber un H1: este.
+-->
+<style>
+.sc-intro{background:#FAF8F4;color:#15221B;padding:88px 0;border-bottom:1px solid rgba(0,0,0,.05);font-family:"Plus Jakarta Sans",-apple-system,system-ui,sans-serif}
+.sc-intro__wrap{max-width:1280px;margin:0 auto;padding:0 32px;display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:64px;align-items:center}
+.sc-intro__text{display:grid;gap:20px;min-width:0}
+.sc-intro__eyebrow{justify-self:start;display:inline-flex;padding:6px 14px;border-radius:999px;background:#E3F0E8;color:#2E5A40;font:700 12px/16px "Plus Jakarta Sans",system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+.sc-intro h1.sc-intro__h1{margin:0;font:700 clamp(32px,4.2vw,54px)/1.05 "Space Grotesk",system-ui,sans-serif;letter-spacing:-.02em;text-transform:uppercase;color:#15221B;text-wrap:balance}
+.sc-intro h1 .sc-intro__serif{font-family:"Instrument Serif",Georgia,serif;font-style:italic;font-weight:400;text-transform:none;color:#2E5A40;letter-spacing:-.01em}
+.sc-intro h2.sc-intro__h2{margin:12px 0 0;font:700 clamp(22px,2.2vw,28px)/1.15 "Space Grotesk",system-ui,sans-serif;text-transform:uppercase;color:#15221B}
+.sc-intro .sc-intro__text p{margin:0;max-width:62ch;font-size:17px;line-height:1.65;font-weight:300;color:#525E57}
+.sc-intro .sc-intro__text p strong{font-weight:600;color:#15221B}
+.sc-intro .sc-intro__text p a{color:#2E5A40;font-weight:500;text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+.sc-intro .sc-intro__text p a:hover{color:#15221B}
+.sc-intro__ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
+.sc-intro__btn{display:inline-flex;align-items:center;gap:8px;padding:14px 22px;border-radius:2px;font:600 14px/1 "Plus Jakarta Sans",system-ui,sans-serif;text-decoration:none;border:1px solid #2E5A40}
+.sc-intro__btn--solid{background:#2E5A40;color:#fff}
+.sc-intro__btn--solid:hover{background:#15221B;border-color:#15221B}
+.sc-intro__btn--ghost{color:#2E5A40;background:transparent}
+.sc-intro__btn--ghost:hover{background:#E3F0E8}
+.sc-intro__btn:focus-visible{outline:2px solid #6EBE8C;outline-offset:3px}
+.sc-intro__media{position:relative;margin:0;background:#15221B;padding:40px 0 40px 40px;min-width:0}
+.sc-intro__media::before{content:"";position:absolute;inset:20px 20px 20px 20px;border:2px solid #6EBE8C;pointer-events:none}
+.sc-intro__media img{position:relative;display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;margin-left:-80px;width:calc(100% + 40px);max-width:none;box-shadow:0 24px 48px rgba(0,0,0,.25)}
+.sc-intro__media figcaption{position:relative;margin:16px 40px 0 -40px;color:#E3F0E8;font:500 12px/1.4 "Plus Jakarta Sans",system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase}
+@media (max-width:1023px){
+  .sc-intro{padding:64px 0}
+  .sc-intro__wrap{grid-template-columns:1fr;gap:40px;padding:0 20px}
+  .sc-intro__media{padding:24px}
+  .sc-intro__media::before{inset:12px}
+  .sc-intro__media img{margin-left:0;width:100%;max-width:100%;aspect-ratio:4/3}
+  .sc-intro__media figcaption{margin:14px 0 0}
+}
+</style>
+
+<section class="sc-intro" aria-labelledby="sc-intro-h1">
+  <div class="sc-intro__wrap">
+    <div class="sc-intro__text">
+      <span class="sc-intro__eyebrow">Taller de camperización · Barcelona</span>
+
+      <h1 id="sc-intro-h1" class="sc-intro__h1">Camperización de furgonetas <span class="sc-intro__serif">a medida</span> en Barcelona</h1>
+
+      <p>En Singular Campers diseñamos y construimos campers para clientes de Barcelona y de toda Cataluña. Hacemos desde instalaciones sueltas, como una <a href="/instalacion-segunda-bateria-furgoneta-camper/">segunda batería de litio</a> o la <a href="/instalacion-calefaccion-estacionaria/">calefacción estacionaria</a>, hasta la <strong>camperización completa de tu furgoneta</strong>, con proyecto técnico y homologación ITV incluidos.</p>
+
+      <h2 class="sc-intro__h2">¿Por qué Singular Campers?</h2>
+
+      <p>Cada furgoneta sale del taller con un diseño único. Fabricamos el mobiliario a mano con maderas nobles y HPL, montamos sistemas eléctricos Victron de hasta 960 Ah de litio y te enviamos los avances por WhatsApp. Hablas siempre con David, del primer boceto a la posventa.</p>
+
+      <p><strong>Camperizamos furgonetas medianas</strong> (Renault Trafic, Mercedes Vito, Volkswagen T5 y T6, Ford Transit Custom) <strong>y de gran volumen</strong> (Fiat Ducato, Citroën Jumper, Peugeot Boxer, Mercedes Sprinter, Volkswagen Crafter), desde L1H1 hasta L4H3.</p>
+
+      <p>También instalamos <a href="/instalacion-placa-solar-furgoneta/">placas solares</a>, <a href="/instalacion-ventanas-y-claraboyas/">ventanas y claraboyas</a>, <a href="/aislamiento/">aislamiento Kaiflex</a>, <a href="/instalacion-de-agua-furgoneta/">agua y ducha</a> y <a href="/instalacion-gas-glp-furgoneta/">gas GLP</a> en furgonetas camper y autocaravanas.</p>
+
+      <div class="sc-intro__ctas">
+        <a class="sc-intro__btn sc-intro__btn--solid" href="/contacto/">Pide tu presupuesto a medida →</a>
+        <a class="sc-intro__btn sc-intro__btn--ghost" href="/ultimos-trabajos/">Ver camperizaciones entregadas</a>
+      </div>
+    </div>
+
+    <figure class="sc-intro__media">
+      <img src="https://singularcampers.com/wp-content/uploads/2025/11/IMG_4411.jpeg"
+           width="1024" height="768" loading="lazy" decoding="async"
+           alt="Citroën Jumper L4 H3 camperizada a medida por Singular Campers en Barcelona">
+      <figcaption>Citroën Jumper L4H3 · 960 Ah litio · 990 W solar</figcaption>
+    </figure>
+  </div>
+</section>
