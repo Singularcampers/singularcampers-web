@@ -1,0 +1,541 @@
+{
+  "checked_at": "2026-11-12",
+  "batteries": [
+    {
+      "id": "eleksol-100",
+      "name": "Eleksol 100 Ah",
+      "ah": 100,
+      "reference": "LFP100AH-B-BT",
+      "booster": "Orion-Tr Smart 18 A",
+      "price_cents": 85500,
+      "price_from": true,
+      "continuous_a": 50,
+      "max_continuous_a": 100,
+      "charge_recommended_a": 20,
+      "charge_max_a": 50,
+      "dimensions_mm": [
+        260,
+        168,
+        209
+      ],
+      "weight_kg": 10,
+      "image": "https://eleksol.es/wp-content/uploads/2025/10/bateria-litio-eleksol-bluetooth-bms-lifepo4_01.jpg",
+      "source": "https://eleksol.es/wp-content/uploads/2025/10/100AH-B-BT-Eleksol-LFP.pdf"
+    },
+    {
+      "id": "eleksol-210",
+      "name": "Eleksol 210 Ah",
+      "ah": 210,
+      "reference": "LFP210AH-B-BT",
+      "booster": "Orion XS 50 A",
+      "price_cents": 139500,
+      "continuous_a": 100,
+      "max_continuous_a": 200,
+      "charge_recommended_a": 40,
+      "charge_max_a": 100,
+      "dimensions_mm": [
+        355,
+        175,
+        188
+      ],
+      "weight_kg": 15.4,
+      "image": "https://eleksol.es/wp-content/uploads/2025/09/Imagen-de-WhatsApp-2025-08-21-a-las-13.38.49_4c8f1195.jpg",
+      "source": "https://eleksol.es/wp-content/uploads/2025/09/210AH-B-BT-Eleksol-LFP.pdf"
+    },
+    {
+      "id": "eleksol-300",
+      "name": "Eleksol 300 Ah bajo asiento",
+      "ah": 300,
+      "reference": "LFP300AHBTBA",
+      "booster": "Orion XS 50 A",
+      "price_cents": null,
+      "continuous_a": 200,
+      "max_continuous_a": 200,
+      "charge_recommended_a": 60,
+      "charge_max_a": 150,
+      "dimensions_mm": [
+        390,
+        360,
+        160
+      ],
+      "weight_kg": 33,
+      "image": "https://eleksol.es/wp-content/uploads/2024/08/LFP300AHBTBA-Bateria-Litio-Eleksol-300Ah-128V-Bluetooth-Bajo-Asiento.jpeg",
+      "source": "https://eleksol.es/wp-content/uploads/2025/08/300AHBTBA-Eleksol-LFP.pdf"
+    },
+    {
+      "id": "eleksol-400",
+      "name": "Eleksol 400 Ah",
+      "ah": 400,
+      "reference": "LFP400AHBT",
+      "booster": "Orion XS 70 A",
+      "price_cents": null,
+      "continuous_a": 100,
+      "max_continuous_a": 250,
+      "charge_recommended_a": 80,
+      "charge_max_a": 200,
+      "dimensions_mm": [
+        522,
+        240,
+        218
+      ],
+      "weight_kg": 38,
+      "image": "https://eleksol.es/wp-content/uploads/2025/08/Bateria-Litio-Eleksol-400Ah-128V-Bluetooth.jpg",
+      "source": "https://eleksol.es/wp-content/uploads/2025/08/400AHBT-Eleksol-LFP.pdf"
+    }
+  ],
+  "inverters": [
+    {
+      "id": "phoenix-va-250",
+      "name": "Phoenix VE.Direct 12/250 230 V Schuko",
+      "family": "Phoenix VE.Direct · referencias VA anteriores",
+      "reference": "PIN121251200",
+      "va": 250,
+      "watts": 200,
+      "watts40": 175,
+      "peak_w": 400,
+      "efficiency_max": 0.87,
+      "min_battery_ah": 30,
+      "charger_a": 0,
+      "has_charger": false,
+      "has_transfer": false,
+      "spec_verified": true,
+      "availability": "Confirmar suministro · referencia fuera de tarifa vigente",
+      "sources": [
+        "https://www.victronenergy.com/upload/documents/Datasheet-Inverter-VE.Direct-250VA-1600VA-EN.pdf",
+        "https://www.victronenergy.com/upload/documents/Manual-Inverter-VE.Direct-250VA-1200VA-EN-NL-FR-DE-ES-IT-.pdf",
+        "https://www.victronenergy.com/media/pricelist/Pricelist_Web_Victron__EUR_C_2026-Q4_003.pdf"
+      ]
+    },
+    {
+      "id": "phoenix-va-375",
+      "name": "Phoenix VE.Direct 12/375 230 V Schuko",
+      "family": "Phoenix VE.Direct · referencias VA anteriores",
+      "reference": "PIN121371200",
+      "va": 375,
+      "watts": 300,
+      "watts40": 260,
+      "peak_w": 700,
+      "efficiency_max": 0.89,
+      "min_battery_ah": 40,
+      "charger_a": 0,
+      "has_charger": false,
+      "has_transfer": false,
+      "spec_verified": true,
+      "availability": "Confirmar suministro",
+      "sources": [
+        "https://www.victronenergy.com/upload/documents/Datasheet-Inverter-VE.Direct-250VA-1600VA-EN.pdf",
+        "https://www.victronenergy.com/upload/documents/Manual-Inverter-VE.Direct-250VA-1200VA-EN-NL-FR-DE-ES-IT-.pdf",
+        "https://www.victronenergy.com/media/pricelist/Pricelist_Web_Victron__EUR_C_2026-Q4_003.pdf"
+      ]
+    },
+    {
+      "id": "phoenix-va-500",
+      "name": "Phoenix VE.Direct 12/500 230 V Schuko",
+      "family": "Phoenix VE.Direct · referencias VA anteriores",
+      "reference": "PIN121501200",
+      "va": 500,
+      "watts": 400,
+      "watts40": 350,
+      "peak_w": 900,
+      "efficiency_max": 0.9,
+      "min_battery_ah": 60,
+      "charger_a": 0,
+      "has_charger": false,
+      "has_transfer": false,
+      "spec_verified": true,
+      "availability": "Confirmar suministro · referencia fuera de tarifa vigente",
+      "sources": [
+        "https://www.victronenergy.com/upload/documents/Datasheet-Inverter-VE.Direct-250VA-1600VA-EN.pdf",
+        "https://www.victronenergy.com/upload/documents/Manual-Inverter-VE.Direct-250VA-1200VA-EN-NL-FR-DE-ES-IT-.pdf",
+        "https://www.victronenergy.com/media/pricelist/Pricelist_Web_Victron__EUR_C_2026-Q4_003.pdf"
+      ]
+    },
+    {
+      "id": "phoenix-va-800",
+      "name": "Phoenix VE.Direct 12/800 230 V Schuko",
+      "family": "Phoenix VE.Direct · referencias VA anteriores",
+      "reference": "PIN121801200",
+      "va": 800,
+      "watts": 650,
+      "watts40": 560,
+      "peak_w": 1500,
+      "efficiency_max": 0.9,
+      "min_battery_ah": 100,
+      "charger_a": 0,
+      "has_charger": false,
+      "has_transfer": false,
+      "spec_verified": true,
+      "availability": "Confirmar suministro · referencia fuera de tarifa vigente",
+      "sources": [
+        "https://www.victronenergy.com/upload/documents/Datasheet-Inverter-VE.Direct-250VA-1600VA-EN.pdf",
+        "https://www.victronenergy.com/upload/documents/Manual-Inverter-VE.Direct-250VA-1200VA-EN-NL-FR-DE-ES-IT-.pdf",
+        "https://www.victronenergy.com/media/pricelist/Pricelist_Web_Victron__EUR_C_2026-Q4_003.pdf"
+      ]
+    },
+    {
+      "id": "phoenix-va-1200",
+      "name": "Phoenix VE.Direct 12/1200 230 V Schuko",
+      "family": "Phoenix VE.Direct · referencias VA anteriores",
+      "reference": "PIN122121200",
+      "va": 1200,
+      "watts": 1000,
+      "watts40": 850,
+      "peak_w": 2200,
+      "efficiency_max": 0.91,
+      "min_battery_ah": 150,
+      "charger_a": 0,
+      "has_charger": false,
+      "has_transfer": false,
+      "spec_verified": true,
+      "availability": "Confirmar suministro · referencia fuera de tarifa vigente",
+      "sources": [
+        "https://www.victronenergy.com/upload/documents/Datasheet-Inverter-VE.Direct-250VA-1600VA-EN.pdf",
+        "https://www.victronenergy.com/upload/documents/Manual-Inverter-VE.Direct-250VA-1200VA-EN-NL-FR-DE-ES-IT-.pdf",
+        "https://www.victronenergy.com/media/pricelist/Pricelist_Web_Victron__EUR_C_2026-Q4_003.pdf"
+      ]
+    },
+    {
+      "id": "vedirect-hw15-1600",
+      "name": "Inverter VE.Direct HW15 12/1600 230 V Schuko",
+      "family": "Inverter VE.Direct HW15",
+      "reference": "PIN122161200",
+      "va": null,
+      "watts": 1450,
+      "watts40": 1300,
+      "peak_w": 2100,
+      "efficiency_max": 0.91,
+      "min_battery_ah": null,
+      "charger_a": 0,
+      "has_charger": false,
+      "has_transfer": false,
+      "spec_verified": true,
+      "availability": "Confirmar suministro",
+      "sources": [
+        "https://www.victronenergy.com/upload/documents/Datasheet-Inverter-VE.Direct-250W-1600W-230V-EN.pdf",
+        "https://www.victronenergy.com/upload/documents/Inverter_VE.Direct_230V_-_HW15/106668-Inverter_VE_Direct__Smart_and_SUN-pdf-en.pdf",
+        "https://www.victronenergy.com/media/pricelist/Pricelist_Web_Victron__EUR_C_2026-Q4_003.pdf"
+      ]
+    },
+    {
+      "id": "phoenix-smart-1600",
+      "name": "Phoenix Smart 12/1600 230 V",
+      "family": "Phoenix Smart",
+      "reference": "PIN122161000",
+      "va": 1600,
+      "watts": 1300,
+      "watts40": 1200,
+      "peak_w": 3000,
+      "efficiency_max": 0.92,
+      "min_battery_ah": 300,
+      "charger_a": 0,
+      "has_charger": false,
+      "has_transfer": false,
+      "spec_verified": true,
+      "availability": "Confirmar suministro",
+      "sources": [
+        "https://www.victronenergy.com/upload/documents/Datasheet-Inverter-Smart-1600VA-5000VA-EN.pdf",
+        "https://www.victronenergy.com/upload/documents/Inverter_Smart/106668-Inverter_VE_Direct__Smart_and_SUN-pdf-en.pdf",
+        "https://www.victronenergy.com/media/pricelist/Pricelist_Web_Victron__EUR_C_2026-Q4_003.pdf"
+      ]
+    },
+    {
+      "id": "phoenix-smart-2000",
+      "name": "Phoenix Smart 12/2000 230 V",
+      "family": "Phoenix Smart",
+      "reference": "PIN122201000",
+      "va": 2000,
+      "watts": 1600,
+      "watts40": 1450,
+      "peak_w": 4000,
+      "efficiency_max": 0.92,
+      "min_battery_ah": 350,
+      "charger_a": 0,
+      "has_charger": false,
+      "has_transfer": false,
+      "spec_verified": true,
+      "availability": "Confirmar suministro · referencia fuera de tarifa vigente",
+      "sources": [
+        "https://www.victronenergy.com/upload/documents/Datasheet-Inverter-Smart-1600VA-5000VA-EN.pdf",
+        "https://www.victronenergy.com/upload/documents/Inverter_Smart/106668-Inverter_VE_Direct__Smart_and_SUN-pdf-en.pdf",
+        "https://www.victronenergy.com/media/pricelist/Pricelist_Web_Victron__EUR_C_2026-Q4_003.pdf"
+      ]
+    },
+    {
+      "id": "phoenix-smart-3000",
+      "name": "Phoenix Smart 12/3000 230 V",
+      "family": "Phoenix Smart",
+      "reference": "PIN122300000",
+      "va": 3000,
+      "watts": 2400,
+      "watts40": 2200,
+      "peak_w": 6000,
+      "efficiency_max": 0.93,
+      "min_battery_ah": 400,
+      "charger_a": 0,
+      "has_charger": false,
+      "has_transfer": false,
+      "spec_verified": true,
+      "availability": "Confirmar suministro",
+      "sources": [
+        "https://www.victronenergy.com/upload/documents/Datasheet-Inverter-Smart-1600VA-5000VA-EN.pdf",
+        "https://www.victronenergy.com/upload/documents/Inverter_Smart/106668-Inverter_VE_Direct__Smart_and_SUN-pdf-en.pdf",
+        "https://www.victronenergy.com/media/pricelist/Pricelist_Web_Victron__EUR_C_2026-Q4_003.pdf"
+      ]
+    },
+    {
+      "id": "mp-500",
+      "name": "MultiPlus 12/500/20-16 230V VE.Bus",
+      "family": "MultiPlus",
+      "reference": "PMP121500000",
+      "va": 500,
+      "watts": 430,
+      "watts40": 400,
+      "peak_w": 900,
+      "efficiency_max": 0.9,
+      "min_battery_ah": 60,
+      "charger_a": 20,
+      "has_charger": true,
+      "has_transfer": true,
+      "spec_verified": true,
+      "availability": "Confirmar suministro",
+      "sources": [
+        "https://www.victronenergy.com/media/pricelist/Pricelist_Web_Victron__EUR_C_2026-Q4_003.pdf"
+      ]
+    },
+    {
+      "id": "mp-800",
+      "name": "MultiPlus 12/800/35-16 230V VE.Bus",
+      "family": "MultiPlus",
+      "reference": "PMP121800000",
+      "va": 800,
+      "watts": 700,
+      "watts40": 650,
+      "peak_w": 1600,
+      "efficiency_max": 0.92,
+      "min_battery_ah": 100,
+      "charger_a": 35,
+      "has_charger": true,
+      "has_transfer": true,
+      "spec_verified": true,
+      "availability": "Confirmar suministro",
+      "sources": [
+        "https://www.victronenergy.com/media/pricelist/Pricelist_Web_Victron__EUR_C_2026-Q4_003.pdf"
+      ]
+    },
+    {
+      "id": "mp-1200",
+      "name": "MultiPlus 12/1200/50-16 230V VE.Bus",
+      "family": "MultiPlus",
+      "reference": "PMP122120000",
+      "va": 1200,
+      "watts": 1000,
+      "watts40": 900,
+      "peak_w": 2400,
+      "efficiency_max": 0.93,
+      "min_battery_ah": 150,
+      "charger_a": 50,
+      "has_charger": true,
+      "has_transfer": true,
+      "spec_verified": true,
+      "availability": "Confirmar suministro",
+      "sources": [
+        "https://www.victronenergy.com/media/pricelist/Pricelist_Web_Victron__EUR_C_2026-Q4_003.pdf"
+      ]
+    },
+    {
+      "id": "mp-1600",
+      "name": "MultiPlus 12/1600/70-16 230V VE.Bus",
+      "family": "MultiPlus",
+      "reference": "PMP122160000",
+      "va": 1600,
+      "watts": 1300,
+      "watts40": 1200,
+      "peak_w": 2800,
+      "efficiency_max": 0.93,
+      "min_battery_ah": 200,
+      "charger_a": 70,
+      "has_charger": true,
+      "has_transfer": true,
+      "spec_verified": true,
+      "availability": "Confirmar suministro",
+      "sources": [
+        "https://www.victronenergy.com/media/pricelist/Pricelist_Web_Victron__EUR_C_2026-Q4_003.pdf"
+      ]
+    },
+    {
+      "id": "mp-2000",
+      "name": "MultiPlus 12/2000/80-32 230V VE.Bus",
+      "family": "MultiPlus",
+      "reference": "PMP122200000",
+      "va": 2000,
+      "watts": 1600,
+      "watts40": 1400,
+      "peak_w": 3500,
+      "efficiency_max": 0.93,
+      "min_battery_ah": 350,
+      "charger_a": 80,
+      "has_charger": true,
+      "has_transfer": true,
+      "spec_verified": true,
+      "availability": "Confirmar suministro",
+      "sources": [
+        "https://www.victronenergy.com/media/pricelist/Pricelist_Web_Victron__EUR_C_2026-Q4_003.pdf"
+      ]
+    },
+    {
+      "id": "mp-3000",
+      "name": "MultiPlus 12/3000/120-16 230V VE.Bus",
+      "family": "MultiPlus",
+      "reference": "PMP122300001",
+      "va": 3000,
+      "watts": 2400,
+      "watts40": 2200,
+      "peak_w": 6000,
+      "efficiency_max": 0.93,
+      "min_battery_ah": 400,
+      "charger_a": 120,
+      "has_charger": true,
+      "has_transfer": true,
+      "spec_verified": true,
+      "availability": "Confirmar suministro",
+      "sources": [
+        "https://www.victronenergy.com/media/pricelist/Pricelist_Web_Victron__EUR_C_2026-Q4_003.pdf"
+      ]
+    },
+    {
+      "id": "mp2-3000",
+      "name": "MultiPlus-II 12/3000/120-32 230V",
+      "family": "MultiPlus-II",
+      "reference": "PMP122305010",
+      "va": 3000,
+      "watts": 2400,
+      "watts40": 2200,
+      "peak_w": 5500,
+      "efficiency_max": 0.93,
+      "min_battery_ah": 400,
+      "charger_a": 120,
+      "has_charger": true,
+      "has_transfer": true,
+      "spec_verified": true,
+      "availability": "Confirmar suministro",
+      "sources": [
+        "https://www.victronenergy.com/media/pricelist/Pricelist_Web_Victron__EUR_C_2026-Q4_003.pdf"
+      ]
+    },
+    {
+      "id": "vedirect-hw15-250",
+      "name": "Inverter VE.Direct HW15 12/250 230 V Schuko",
+      "family": "Inverter VE.Direct HW15",
+      "reference": "PIN121251210",
+      "va": null,
+      "watts": 250,
+      "watts40": 200,
+      "peak_w": 400,
+      "efficiency_max": 0.84,
+      "min_battery_ah": null,
+      "charger_a": 0,
+      "has_charger": false,
+      "has_transfer": false,
+      "spec_verified": true,
+      "availability": "Confirmar suministro",
+      "sources": [
+        "https://www.victronenergy.com/upload/documents/Datasheet-Inverter-VE.Direct-250W-1600W-230V-EN.pdf",
+        "https://www.victronenergy.com/upload/documents/Inverter_VE.Direct_230V_-_HW15/106668-Inverter_VE_Direct__Smart_and_SUN-pdf-en.pdf",
+        "https://www.victronenergy.com/media/pricelist/Pricelist_Web_Victron__EUR_C_2026-Q4_003.pdf"
+      ]
+    },
+    {
+      "id": "vedirect-hw15-500",
+      "name": "Inverter VE.Direct HW15 12/500 230 V Schuko",
+      "family": "Inverter VE.Direct HW15",
+      "reference": "PIN121501210",
+      "va": null,
+      "watts": 450,
+      "watts40": 380,
+      "peak_w": 750,
+      "efficiency_max": 0.86,
+      "min_battery_ah": null,
+      "charger_a": 0,
+      "has_charger": false,
+      "has_transfer": false,
+      "spec_verified": true,
+      "availability": "Confirmar suministro",
+      "sources": [
+        "https://www.victronenergy.com/upload/documents/Datasheet-Inverter-VE.Direct-250W-1600W-230V-EN.pdf",
+        "https://www.victronenergy.com/upload/documents/Inverter_VE.Direct_230V_-_HW15/106668-Inverter_VE_Direct__Smart_and_SUN-pdf-en.pdf",
+        "https://www.victronenergy.com/media/pricelist/Pricelist_Web_Victron__EUR_C_2026-Q4_003.pdf"
+      ]
+    },
+    {
+      "id": "vedirect-hw15-800",
+      "name": "Inverter VE.Direct HW15 12/800 230 V Schuko",
+      "family": "Inverter VE.Direct HW15",
+      "reference": "PIN121801210",
+      "va": null,
+      "watts": 800,
+      "watts40": 650,
+      "peak_w": 1200,
+      "efficiency_max": 0.9,
+      "min_battery_ah": null,
+      "charger_a": 0,
+      "has_charger": false,
+      "has_transfer": false,
+      "spec_verified": true,
+      "availability": "Confirmar suministro",
+      "sources": [
+        "https://www.victronenergy.com/upload/documents/Datasheet-Inverter-VE.Direct-250W-1600W-230V-EN.pdf",
+        "https://www.victronenergy.com/upload/documents/Inverter_VE.Direct_230V_-_HW15/106668-Inverter_VE_Direct__Smart_and_SUN-pdf-en.pdf",
+        "https://www.victronenergy.com/media/pricelist/Pricelist_Web_Victron__EUR_C_2026-Q4_003.pdf"
+      ]
+    },
+    {
+      "id": "vedirect-hw15-1200",
+      "name": "Inverter VE.Direct HW15 12/1200 230 V Schuko",
+      "family": "Inverter VE.Direct HW15",
+      "reference": "PIN122121210",
+      "va": null,
+      "watts": 1150,
+      "watts40": 1000,
+      "peak_w": 1600,
+      "efficiency_max": 0.91,
+      "min_battery_ah": null,
+      "charger_a": 0,
+      "has_charger": false,
+      "has_transfer": false,
+      "spec_verified": true,
+      "availability": "Confirmar suministro",
+      "sources": [
+        "https://www.victronenergy.com/upload/documents/Datasheet-Inverter-VE.Direct-250W-1600W-230V-EN.pdf",
+        "https://www.victronenergy.com/upload/documents/Inverter_VE.Direct_230V_-_HW15/106668-Inverter_VE_Direct__Smart_and_SUN-pdf-en.pdf",
+        "https://www.victronenergy.com/media/pricelist/Pricelist_Web_Victron__EUR_C_2026-Q4_003.pdf"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "autoterm",
+      "name": "Autoterm Air 2D",
+      "price_cents": 104900
+    },
+    {
+      "id": "webasto",
+      "name": "Webasto Air Top 2000 STC",
+      "price_cents": null
+    },
+    {
+      "id": "solar200",
+      "name": "Solar 200 W · SmartSolar 100/20",
+      "price_cents": 62500
+    },
+    {
+      "id": "solar300",
+      "name": "Solar 300 W · SmartSolar 100/30",
+      "price_cents": null
+    },
+    {
+      "id": "solar415",
+      "name": "Solar hasta 415 W · MPPT por verificar",
+      "price_cents": null
+    }
+  ]
+}
