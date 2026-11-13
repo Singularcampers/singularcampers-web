@@ -16,7 +16,7 @@
 .sc-newsletter__form label{display:block;margin:15px 0 0;color:#45413B;font-size:.78rem;line-height:1.5}
 .sc-newsletter__form label input[type=checkbox]{accent-color:#1A1A1A;margin-right:8px}
 .sc-newsletter__form a,.sc-newsletter__note a{color:#1A1A1A;text-underline-offset:.2em}
-.sc-newsletter__note{font-size:.74rem;line-height:1.6;color:#45413B;margin:18px 0 0}
+.sc-newsletter__brevo{display:block;width:100%;height:670px;max-width:540px;border:0;background:transparent;overflow:auto}.sc-newsletter__fallback{font-size:.77rem;line-height:1.6;margin:8px 0 0;color:#45413B}.sc-newsletter__fallback a{color:#1A1A1A;text-underline-offset:.2em}.sc-newsletter__note{font-size:.74rem;line-height:1.6;color:#45413B;margin:18px 0 0}
 @media(max-width:780px){.sc-newsletter__inner{grid-template-columns:1fr;gap:30px}.sc-newsletter__aside{border-left:0;border-top:1px solid #C5B396;padding-left:0;padding-top:28px}}
 @media(prefers-reduced-motion:reduce){.sc-newsletter__form button{transition:none}}
 </style>
@@ -30,11 +30,12 @@
   <div class="sc-newsletter__aside">
    <p class="sc-newsletter__topics">Proyectos reales · Equipamiento · Homologación</p>
    <div class="sc-newsletter__form">
-    <!-- SLOT BREVO: insertar aquí el HTML del formulario creado en Brevo, con doble opt-in,
-         campo email obligatorio, consentimiento comercial expreso NO premarcado y protección antispam.
-         Mantener la suscripción desactivada mientras no exista integración real. -->
+    <!-- URL oficial proporcionada por Singular Campers; no contiene datos de suscriptores.
+         IMPORTANTE: formulario Brevo aún pendiente de verificar doble opt-in, RGPD y consentimiento. -->
+    <iframe class="sc-newsletter__brevo" title="Formulario de suscripción a la newsletter de Singular Campers" src="https://fc51e158.sibforms.com/serve/MUIFAM-JSND_NVkRomOc47XbqXXkUTCvYnTsoq8sF_I2oNMU6W3JuJjAiyWkSWgoVZaZ4FGK5MLvuCCyaIRPg9PZqQHVK4Wyj1LYGeWu6MMg5yPT4uZqyxW78BmkBDxWKopgVxjYGw5PuV7f1X8JiOamX-DtTLEUqZBB5pH8Y8EtgvV6sTVG0vB0utt3X0yNRnWX3nl3S4W_EqZllg==" loading="lazy" width="540" height="670" scrolling="yes" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    <p class="sc-newsletter__fallback">¿No se muestra el formulario? <a href="https://fc51e158.sibforms.com/serve/MUIFAM-JSND_NVkRomOc47XbqXXkUTCvYnTsoq8sF_I2oNMU6W3JuJjAiyWkSWgoVZaZ4FGK5MLvuCCyaIRPg9PZqQHVK4Wyj1LYGeWu6MMg5yPT4uZqyxW78BmkBDxWKopgVxjYGw5PuV7f1X8JiOamX-DtTLEUqZBB5pH8Y8EtgvV6sTVG0vB0utt3X0yNRnWX3nl3S4W_EqZllg==" target="_blank" rel="noopener noreferrer">Abrir suscripción en Brevo</a>.</p>
    </div>
-   <p class="sc-newsletter__note">Sin spam. Solo novedades de Singular Campers. Puedes darte de baja en cualquier momento. <a href="https://singularcampers.com/politica-de-privacidad/">Política de privacidad</a>.</p>
+   <p class="sc-newsletter__note">Sin spam. Solo novedades de Singular Campers. Puedes darte de baja en cualquier momento. Al enviar el formulario solicitas recibir comunicaciones mensuales de Singular Campers. <a href="https://singularcampers.com/politica-de-privacidad/">Política de privacidad</a>.</p>
   </div>
  </div>
 </section>
